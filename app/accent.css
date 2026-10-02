@@ -44,3 +44,5 @@ body {
 .development-skills { background: linear-gradient(115deg, rgba(24, 52, 80, .78), rgba(17, 23, 32, .82)); }
 .development-skills span { background: rgba(99, 179, 255, .08); border-color: rgba(99, 179, 255, .16); }
 .development-skills span:hover { background: rgba(99, 179, 255, .14); }
+
+.header-description { margin: 7px 0 0; color: var(--muted); font-size: 12px; }

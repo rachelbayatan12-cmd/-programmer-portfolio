@@ -8,7 +8,7 @@ const navigation = [
   ["Projects", "/projects", "◇"], ["Skills", "/skills", "✦"]
 ];
 
-export default function DashboardShell({ children, title, eyebrow }) {
+export default function DashboardShell({ children, title, eyebrow, description }) {
   const pathname = usePathname();
   return <div className="app-layout">
     <aside className="sidebar">
@@ -19,6 +19,6 @@ export default function DashboardShell({ children, title, eyebrow }) {
       </nav>
       <button className="logout" onClick={() => window.dispatchEvent(new CustomEvent("portfolio:navigate", { detail: "/login" }))}><i>↩</i>Logout</button>
     </aside>
-    <div className="dashboard-main"><header className="dashboard-header"><div><p className="eyebrow">{eyebrow || "Student portfolio"}</p><h1>{title}</h1></div><div className="header-user"><span>Rachel Bayatan</span><b>RB</b></div></header>{children}</div>
+    <div className="dashboard-main"><header className="dashboard-header"><div><p className="eyebrow">{eyebrow || "Student portfolio"}</p><h1>{title}</h1>{description && <p className="header-description">{description}</p>}</div><div className="header-user"><span>Rachel Bayatan</span><b>RB</b></div></header>{children}</div>
   </div>;
 }
