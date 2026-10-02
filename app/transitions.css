@@ -9,12 +9,12 @@
 }
 
 .page-transition {
-  animation: route-enter 340ms cubic-bezier(.22, .8, .25, 1) both;
+  animation: route-enter 360ms cubic-bezier(.22, .8, .25, 1) both;
   will-change: opacity, transform;
 }
 
 .page-transition.is-leaving {
-  animation: route-exit 260ms cubic-bezier(.4, 0, 1, 1) both;
+  animation: route-exit 320ms cubic-bezier(.4, 0, 1, 1) both;
   pointer-events: none;
 }
 
