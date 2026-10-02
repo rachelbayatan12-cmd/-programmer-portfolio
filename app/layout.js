@@ -1,5 +1,6 @@
 import "./globals.css";
 import "./accent.css";
+import "./transitions.css";
 
 export const metadata = {
   title: "Rachel Bayatan | Programmer Portfolio",
