@@ -1,0 +1,46 @@
+/* Blue accent refinement layered over the portfolio's existing dark theme. */
+body {
+  --lime: #63b3ff;
+  background: radial-gradient(circle at 80% -20%, rgba(67, 137, 210, .13), transparent 32%), var(--dark);
+}
+
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 rgba(99, 179, 255, .3); }
+  70% { box-shadow: 0 0 0 10px rgba(99, 179, 255, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(99, 179, 255, 0); }
+}
+
+.hero:before { background: radial-gradient(circle, rgba(99, 179, 255, .08), transparent 68%); }
+.hero:after { background: rgba(99, 179, 255, .045); }
+.portrait-glow { border-color: rgba(99, 179, 255, .28); background: radial-gradient(circle, rgba(99, 179, 255, .1), transparent 62%); box-shadow: 0 0 100px rgba(57, 123, 204, .14); }
+.avatar { background: linear-gradient(145deg, #a9d8ff, #417dbb); }
+.avatar-large { background: linear-gradient(145deg, #c0e4ff, #326ba5); }
+.sidebar { background: linear-gradient(180deg, #101923, #0c121a); }
+.sidebar:after { background: radial-gradient(ellipse at bottom, rgba(62, 129, 205, .13), transparent 65%); }
+.welcome-card { background: linear-gradient(115deg, #17283a, #141d2a); border-color: rgba(99, 179, 255, .16); }
+.project-marker { background: #203b59; }
+.project-visual { background: linear-gradient(145deg, #203b5b, #111a27); }
+.qr-art span { background: #17324d; }
+.skill-icon { background: #213b58; }
+.profile-hero { background: linear-gradient(120deg, #142236, #101722); }
+.login-page { background: radial-gradient(circle at 20% 80%, rgba(40, 99, 165, .27), transparent 30%), var(--dark); }
+.login-intro { background: linear-gradient(145deg, #182b42, #111a27); }
+
+.button-primary:hover { box-shadow: 0 10px 24px rgba(71, 151, 232, .26); }
+.button-secondary:hover { border-color: rgba(99, 179, 255, .48); }
+.tech-badge b { background: rgba(99, 179, 255, .15); }
+.tech-badge:hover { border-color: rgba(99, 179, 255, .55); background: rgba(99, 179, 255, .08); }
+.sidebar-nav a.active { background: rgba(99, 179, 255, .12); }
+.header-user b { background: #223c59; box-shadow: 0 0 0 4px rgba(99, 179, 255, .08); }
+.welcome-card:after { border-color: rgba(99, 179, 255, .15); }
+.stat-grid article:hover, .panel:hover { border-color: rgba(99, 179, 255, .3); }
+.recent-project { border-color: rgba(99, 179, 255, .2); }
+.recent-project > a { background: rgba(99, 179, 255, .12); }
+.skill-card:hover { border-color: rgba(99, 179, 255, .45); }
+.project-card:hover { border-color: rgba(99, 179, 255, .4); }
+.project-visual:after { border-color: rgba(99, 179, 255, .24); }
+.education-card:after { border-color: rgba(99, 179, 255, .11); }
+.login-panel input:focus { border-color: rgba(99, 179, 255, .65); box-shadow: 0 0 0 4px rgba(99, 179, 255, .08); }
+.development-skills { background: linear-gradient(115deg, rgba(24, 52, 80, .78), rgba(17, 23, 32, .82)); }
+.development-skills span { background: rgba(99, 179, 255, .08); border-color: rgba(99, 179, 255, .16); }
+.development-skills span:hover { background: rgba(99, 179, 255, .14); }
