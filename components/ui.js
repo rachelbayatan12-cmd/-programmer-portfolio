@@ -1,5 +1,19 @@
 export function Avatar({ large = false }) {
-  return <div className={`avatar ${large ? "avatar-large" : ""}`} aria-hidden="true"><span>AR</span></div>;
+  return (
+    <div className={`avatar ${large ? "avatar-large" : ""}`}>
+      <img
+        src="/file_00000000163c8209ad17ced75849f17d.png"
+        alt="Profile"
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          borderRadius: "50%",
+          display: "block",
+        }}
+      />
+    </div>
+  );
 }
 
 export function TechBadge({ name }) {
