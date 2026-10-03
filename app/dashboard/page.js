@@ -2,7 +2,7 @@ import DashboardShell from "../../components/dashboard-shell";
 import { Avatar, TechBadge } from "../../components/ui";
 
 export default function DashboardPage() {
-  return <DashboardShell title="Hello,Rachel" eyebrow="Here's an overview of your portfolio.">
+  return <DashboardShell title="Hello, Rachel" eyebrow="Here's an overview of your portfolio.">
     <main className="dashboard-content">
       <section className="welcome-card"><div><p className="eyebrow">Overview</p><h2>Keep building great things.</h2><p>Your portfolio is ready to share. Continue refining your projects and growing your technical toolkit.</p></div><div className="welcome-orb">✦</div></section>
       <section className="stat-grid" aria-label="Portfolio summary"><article><span>01</span><p>Featured project</p><strong>1</strong></article><article><span>05</span><p>Core technologies</p><strong>5</strong></article><article><span>∞</span><p>Ideas in progress</p><strong>∞</strong></article></section>
