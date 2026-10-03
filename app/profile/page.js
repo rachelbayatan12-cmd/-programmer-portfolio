@@ -5,11 +5,15 @@ export default function ProfilePage() {
     <DashboardShell title="My profile" eyebrow="About me">
       <main className="dashboard-content page-content">
         <section className="profile-hero panel">
-          <img
-            src="/file_00000000163c8209ad17ced75849f17d.png"
-            alt="Rachel Bayatan"
-            className="profile-photo"
-          />
+  <img
+    src="/file_00000000163c8209ad17ced75849f17d.png"
+    alt="Rachel Bayatan"
+    className="profile-photo"
+  />
+
+  <div>
+    <p className="eyebrow">Aspiring software developer</p>
+    <h2>Rachel Bayatan</h2>
 
           <div>
             <p className="eyebrow">Aspiring software developer</p>
