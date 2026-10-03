@@ -333,3 +333,89 @@ body{background:radial-gradient(circle at 80% -20%,rgba(101,145,84,.11),transpar
   display: block;
   flex-shrink: 0;
 }
+
+/* ===== Smooth Portfolio Animations ===== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-copy {
+  animation: fadeUp 0.7s ease-out both;
+}
+
+.hero-portrait {
+  animation: fadeUp 0.8s ease-out 0.15s both;
+}
+
+.intro-grid {
+  animation: fadeUp 0.8s ease-out 0.2s both;
+}
+
+.skills-band {
+  animation: fadeUp 0.8s ease-out 0.3s both;
+}
+
+.profile-hero {
+  animation: fadeUp 0.7s ease-out both;
+}
+
+.content-columns {
+  animation: fadeUp 0.8s ease-out 0.15s both;
+}
+
+.panel,
+.welcome-card,
+.recent-project {
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.panel:hover,
+.welcome-card:hover,
+.recent-project:hover {
+  transform: translateY(-4px);
+}
+
+.button,
+.nav-links a,
+.nav-login,
+.sidebar-nav a {
+  transition:
+    transform 0.25s ease,
+    opacity 0.25s ease,
+    color 0.25s ease,
+    background-color 0.25s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
