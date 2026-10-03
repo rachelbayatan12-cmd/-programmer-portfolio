@@ -1,3 +1,4 @@
+
 export function Avatar({ large = false }) {
   return (
     <div className={`avatar ${large ? "avatar-large" : ""}`}>
@@ -15,7 +16,6 @@ export function Avatar({ large = false }) {
     </div>
   );
 }
-
 export function TechBadge({ name }) {
   const initials = { HTML: "H", CSS: "C", JavaScript: "JS", "React.js": "R", "Next.js": "N" };
   return <span className="tech-badge"><b>{initials[name]}</b>{name}</span>;
