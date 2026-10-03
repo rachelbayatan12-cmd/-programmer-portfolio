@@ -323,7 +323,7 @@ body{background:radial-gradient(circle at 80% -20%,rgba(101,145,84,.11),transpar
 .skill-card:hover .skill-icon{transform:rotate(-7deg) scale(1.08);background:rgba(197,250,105,.2)}
 
 .login-panel{box-shadow:0 30px 70px rgba(0,0,0,.32)}
-.login-panel form{background:linear-gradient(145deg,#121917
+.login-panel form{background:linear-gradient(145deg,#121917,#0d1210)}
 .profile-photo {
   width: 150px;
   height: 150px;
