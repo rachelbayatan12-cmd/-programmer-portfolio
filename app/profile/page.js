@@ -6,10 +6,10 @@ export default function ProfilePage() {
       <main className="dashboard-content page-content">
         <section className="profile-hero panel">
   <img
-    src="/file_00000000163c8209ad17ced75849f17d.png"
-    alt="Rachel Bayatan"
-    className="profile-photo"
-  />
+  src="/file_00000000163c8209ad17ced75849f17d.png"
+  alt="Rachel Bayatan"
+  className="profile-photo"
+/>
 
   <div>
     <p className="eyebrow">Aspiring software developer</p>
