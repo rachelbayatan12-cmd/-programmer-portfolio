@@ -37,7 +37,10 @@ export default function DashboardShell({ children, title, eyebrow }) {
           ))}
         </nav>
 
-        <button className="logout" onClick={() => router.push("/login")}>
+        <button
+          className="logout"
+          onClick={() => router.push("/login")}
+        >
           <i>↩</i>
           Logout
         </button>
@@ -46,7 +49,9 @@ export default function DashboardShell({ children, title, eyebrow }) {
       <div className="dashboard-main">
         <header className="dashboard-header">
           <div>
-            <p className="eyebrow">{eyebrow || "Student portfolio"}</p>
+            <p className="eyebrow">
+              {eyebrow || "Student portfolio"}
+            </p>
             <h1>{title}</h1>
           </div>
 
@@ -61,4 +66,3 @@ export default function DashboardShell({ children, title, eyebrow }) {
     </div>
   );
 }
-  
