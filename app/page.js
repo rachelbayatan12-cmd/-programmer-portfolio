@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
     <main>
       <nav className="top-nav" aria-label="Main navigation">
-        <Link className="brand" href="/">AR<span>.</span></Link>
+        <Link className="brand" href="/">RB<span>.</span></Link>
         <div className="nav-links">
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
@@ -19,7 +19,7 @@ export default function HomePage() {
       <section className="hero shell" aria-labelledby="home-title">
         <div className="hero-copy">
           <p className="eyebrow"><span className="status-dot" /> Available for opportunities</p>
-          <h1 id="home-title">Alex <em>Rivera</em></h1>
+          <h1 id="home-title">Rachel<em>Bayatan</em></h1>
           <p className="hero-role">Aspiring Software Developer</p>
           <p className="hero-intro">An Information Technology student focused on creating thoughtful, accessible web experiences and practical software solutions.</p>
           <div className="button-row">
@@ -27,7 +27,7 @@ export default function HomePage() {
             <Link className="button button-secondary" href="/profile">View profile</Link>
           </div>
         </div>
-        <div className="hero-portrait" aria-label="Illustrated portrait of Alex Rivera">
+        <div className="hero-portrait" aria-label="Illustrated portrait of Rachel Bayatan">
           <div className="portrait-glow" />
           <Avatar large />
           <div className="portrait-note"><strong>IT Student</strong><span>Nueva Vizcaya State University</span></div>
