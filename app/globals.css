@@ -254,7 +254,9 @@ body{background:radial-gradient(circle at 80% -20%,rgba(101,145,84,.11),transpar
 .hero-copy>.eyebrow{animation-delay:.05s}
 .hero-copy>h1{animation-delay:.1s}
 .hero-copy>.hero-role{
-  animation: role-reveal 0.8s ease-out 0.18s both;
+  opacity:1;
+  transform:none;
+  animation:role-reveal .8s ease-out .18s both;
 }
 
 @keyframes role-reveal{
