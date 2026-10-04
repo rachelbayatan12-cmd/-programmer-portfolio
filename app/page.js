@@ -18,7 +18,7 @@ export default function HomePage() {
 
       <section className="hero shell" aria-labelledby="home-title">
         <div className="hero-copy">
-          <p className="eyebrow"><span className="status-dot" /> Available for opportunities</p>
+          <p className="eyebrow"><span className="status-dot" /> Open to learning opportunities</p>
           <h1 id="home-title">Rachel <em>Bayatan</em></h1>
           <p className="hero-role">Aspiring Software Developer</p>
           <p className="hero-intro">An Information Technology student focused on creating thoughtful, accessible web experiences and practical software solutions.</p>
