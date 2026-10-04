@@ -11,10 +11,10 @@ export default function DashboardPage() {
         <section className="welcome-card">
           <div>
             <p className="eyebrow">Overview</p>
-            <h2>Keep building great things.</h2>
+            <h2>A quick look at your work.</h2>
             <p>
-              Your portfolio is ready to share. Continue refining your projects
-              and growing your technical toolkit.
+              Explore your profile, technology stack, and featured project, all in one
+      place. Continue building your skills and showcasing what you can create.
             </p>
           </div>
           <div className="welcome-orb">✦</div>
