@@ -496,18 +496,5 @@ html {
   }
 }
 .hero-role {
-  display: inline-block;
-  overflow: hidden;
-  white-space: nowrap;
-  width: 0;
-  animation: typing-role 1.2s steps(27, end) forwards;
-}
-
-@keyframes typing-role {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
+  animation: page-enter 0.7s ease-out 0.2s both;
 }
