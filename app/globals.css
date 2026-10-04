@@ -495,18 +495,19 @@ html {
     padding: 25px 20px 50px;
   }
 }
-
 .hero-role {
-  animation: role-slide 0.8s ease-out 0.2s both;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing-role 1.8s steps(27, end) forwards;
 }
 
-@keyframes role-slide {
+@keyframes typing-role {
   from {
-    opacity: 0;
-    transform: translateX(-15px);
+    width: 0;
   }
   to {
-    opacity: 1;
-    transform: translateX(0);
+    width: 100%;
   }
-}
+  }
