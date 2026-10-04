@@ -28,12 +28,7 @@ export default function ProfilePage() {
     <p className="eyebrow">About me</p>
     <h2>Learning, building, and growing through technology.</h2>
     <p>
-      I enjoy turning ideas into practical digital solutions through my
-    academic projects. I’m particularly interested in frontend development
-    and enjoy exploring new technologies while improving my skills through
-    hands-on experience. I also value clean and user-friendly designs,
-    thoughtful problem-solving, and continuous learning as I work toward
-    becoming a better software developer.
+      I enjoy transforming ideas into functional and meaningful digital experiences. Through academic projects, I have been gaining hands-on experience in creating websites and exploring different technologies. I’m especially interested in frontend development and look forward to expanding my knowledge as I take on new projects and challenges.
     </p>
   </article>
 
