@@ -1,5 +1,5 @@
 import "./globals.css";
-import PageTransition from "./components/PageTransition";
+import PageTransition from "../components/PageTransition";
 
 export const metadata = {
   title: "Rachel Bayatan | Programmer Portfolio",
