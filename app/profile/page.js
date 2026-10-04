@@ -24,16 +24,16 @@ export default function ProfilePage() {
         </section>
 
         <section className="content-columns">
-          <article className="panel">
-            <p className="eyebrow">About me</p>
-            <h2>A thoughtful builder in training.</h2>
-            <p>
-              I am focused on turning classroom concepts into useful,
-              well-designed digital experiences. Each project is an
-              opportunity to sharpen my technical knowledge and create
-              something meaningful.
-            </p>
-          </article>
+  <article className="panel">
+    <p className="eyebrow">About me</p>
+    <h2>Learning, building, and growing through technology.</h2>
+    <p>
+      I’m an Information Technology student who enjoys discovering how
+      technology can turn ideas into useful solutions. Through my academic
+      projects, I’m developing my skills in frontend development, exploring
+      new technologies, and gaining hands-on experience one project at a time.
+    </p>
+  </article>
 
           <article className="panel interest-list">
             <p className="eyebrow">Areas of interest</p>
