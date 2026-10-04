@@ -419,3 +419,66 @@ html {
     transition-duration: 0.01ms !important;
   }
 }
+/* ===== Mobile Dashboard Fix ===== */
+
+@media (max-width: 800px) {
+  .app-layout {
+    display: block;
+    min-height: 100vh;
+  }
+
+  .sidebar {
+    position: static;
+    width: 100%;
+    height: auto;
+    padding: 16px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .sidebar:after {
+    display: none;
+  }
+
+  .sidebar-label,
+  .logout {
+    display: none;
+  }
+
+  .sidebar-nav {
+    display: flex;
+    gap: 2px;
+    overflow-x: auto;
+    flex: 1;
+  }
+
+  .sidebar-nav a {
+    white-space: nowrap;
+    padding: 8px;
+  }
+
+  .sidebar-nav i {
+    display: none;
+  }
+
+  .dashboard-main {
+    margin-left: 0;
+    width: 100%;
+    min-height: calc(100vh - 70px);
+  }
+
+  .dashboard-header {
+    position: static;
+    padding: 22px 20px;
+  }
+
+  .dashboard-content {
+    width: 100%;
+    max-width: 1120px;
+    padding: 25px 20px 50px;
+  }
+}
