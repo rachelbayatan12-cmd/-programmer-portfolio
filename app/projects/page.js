@@ -8,7 +8,7 @@ export default function ProjectsPage() {
     <DashboardShell title="Projects" eyebrow="Selected work">
       <main className="dashboard-content page-content">
         <section className="projects-intro">
-          <p className="eyebrow">Featured project</p>
+          <p className="eyebrow">Featured projects</p>
           <h2>Practical solutions for real workflows.</h2>
           <p>
             A selection of work that brings together frontend fundamentals and
@@ -16,6 +16,7 @@ export default function ProjectsPage() {
           </p>
         </section>
 
+        {/* Project 1 */}
         <article className="project-card">
           <div className="project-visual">
             <div className="qr-art">
@@ -53,7 +54,84 @@ export default function ProjectsPage() {
             </div>
           </div>
         </article>
+
+        {/* Project 2 */}
+        <article className="project-card">
+          <div className="project-visual">
+            <div className="qr-art">
+              <span>+</span>
+              <span>+</span>
+              <span>+</span>
+            </div>
+            <p>
+              Classroom
+              <br />
+              finder
+            </p>
+          </div>
+
+          <div className="project-details">
+            <p className="eyebrow">Web application · Academic concept</p>
+
+            <h2>Classroom Finder System</h2>
+
+            <p>
+              An online web application designed to help first-time students
+              and visitors easily locate classrooms by searching for room
+              numbers or building names and viewing their corresponding
+              location details.
+            </p>
+
+            <div>
+              <p className="stack-label">Technology stack</p>
+
+              <div className="tech-list compact">
+                {stack.map((name) => (
+                  <TechBadge key={name} name={name} />
+                ))}
+              </div>
+            </div>
+          </div>
+        </article>
+
+        {/* Project 3 */}
+        <article className="project-card">
+          <div className="project-visual">
+            <div className="qr-art">
+              <span>+</span>
+              <span>+</span>
+              <span>+</span>
+            </div>
+            <p>
+              Book
+              <br />
+              tracking
+            </p>
+          </div>
+
+          <div className="project-details">
+            <p className="eyebrow">Web application · Academic concept</p>
+
+            <h2>Book Borrowing Tracking System</h2>
+
+            <p>
+              A simple system designed to track borrowed and returned books,
+              including the borrower's name, book details, borrowing date,
+              return date, and current borrowing status.
+            </p>
+
+            <div>
+              <p className="stack-label">Technology stack</p>
+
+              <div className="tech-list compact">
+                {stack.map((name) => (
+                  <TechBadge key={name} name={name} />
+                ))}
+              </div>
+            </div>
+          </div>
+        </article>
       </main>
     </DashboardShell>
   );
-               }
+}
