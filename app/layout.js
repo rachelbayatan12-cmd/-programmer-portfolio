@@ -1,5 +1,4 @@
 import "./globals.css";
-import PageTransition from "../components/PageTransition";
 
 export const metadata = {
   title: "Rachel Bayatan | Programmer Portfolio",
@@ -9,9 +8,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        <PageTransition>{children}</PageTransition>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
