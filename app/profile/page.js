@@ -28,10 +28,12 @@ export default function ProfilePage() {
     <p className="eyebrow">About me</p>
     <h2>Learning, building, and growing through technology.</h2>
     <p>
-      I’m an Information Technology student who enjoys discovering how
-      technology can turn ideas into useful solutions. Through my academic
-      projects, I’m developing my skills in frontend development, exploring
-      new technologies, and gaining hands-on experience one project at a time.
+      I enjoy turning ideas into practical digital solutions through my
+    academic projects. I’m particularly interested in frontend development
+    and enjoy exploring new technologies while improving my skills through
+    hands-on experience. I also value clean and user-friendly designs,
+    thoughtful problem-solving, and continuous learning as I work toward
+    becoming a better software developer.
     </p>
   </article>
 
